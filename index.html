@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gd{
+            background-color: aquamarine;
+            padding: 20px;
+            display: grid;
+            grid-template-rows:100px 100px  100px;
+            row-gap: 10px;
+            column-gap: 10px;
+            align-content: center;
+        }
+        .gd div{
+            background-color: bisque;
+        }
+        #it1{
+           background-color: rgb(16, 116, 223);
+           grid-column: 1/4;
+        
+        }
+        #it2{
+            background-color: rgb(237, 124, 76);
+            grid-row: 2/4;  
+        }
+        #it3{
+            background-color: rgb(202, 230, 41); 
+           grid-column: 2/3;
+        }
+        #it4{
+            background-color: rgb(44, 217, 87);
+            grid-column: 2;
+        }
+        #it5{
+            background-color: rgb(110, 68, 199);
+            grid-row: 2/4;  
+            grid-column: 3;
+        }
+        #it6{
+            background-color: rgb(210, 86, 162);
+            grid-column: 1/4;
+            
+        }
+        
+        img{
+            object-fit:cover;
+            height: 100%;
+            width: 100%;
+        
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="gd">
+        <div id="it1"><img src="./food.jpg" alt=""></div>
+        <div id="it2"><img src="./coffee.jpg" alt=""></div>
+        <div id="it3"><img src="./plate.jpg" alt=""></div>
+        <div id="it4"><img src="./knife.jpg" alt=""></div>
+        <div id="it5"><img src="./blackcoffe.jpg" alt=""></div>
+        <div id="it6"><img src="./chinnu painting.png" alt=""></div>
+        
+    </div>
+</body>
+</html>
